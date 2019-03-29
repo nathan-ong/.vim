@@ -26,6 +26,8 @@ set cursorline          " highlight current line
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 set foldlevelstart=10   " opens folds
+set showmatch           " shows matching parentheses, brackets, etc.
+inoremap jk <esc>       " maps jk to escape key
 " change mapping for jumping between screen splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
