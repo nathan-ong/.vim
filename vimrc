@@ -39,3 +39,5 @@ set splitright
 " map leader nt to :NERDTree
 map <leader>nt :NERDTree<CR>
 " show dotfiles in NERDTree
+map :pretty<CR> :Prettier<CR>
+"
